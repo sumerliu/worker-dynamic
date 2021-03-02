@@ -10,7 +10,7 @@
     <br />
     <br />
     <br />
-    <a href="https://github.com/sumerliu/worker-dynamic/blob/main/example/">View Demo</a>
+    <a href="https://github.com/sumerliu/worker-dynamic/blob/main/examples/example.js">View Demo</a>
     ·
     <a href="https://github.com/sumerliu/worker-dynamic/issues">Report Bug</a>
     ·
