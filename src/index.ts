@@ -1,4 +1,4 @@
-class WorkerPool {
+class WorkerDynamic {
     workerURL: string;
     worker: Worker;
     handler: Function;
@@ -7,7 +7,7 @@ class WorkerPool {
         const pendingJobs = {};
         const f = function(executor){
             onmessage = function ({data: {jobId, message}}) {
-                var result = executor(message);
+                var result = executor(...message);
                 postMessage({ jobId: jobId, result: result });
             };
         }
@@ -40,3 +40,4 @@ class WorkerPool {
         this.worker.terminate()
     }
 }
+export default WorkerDynamic

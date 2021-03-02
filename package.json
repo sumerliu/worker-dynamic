@@ -1,5 +1,5 @@
 {
-  "name": "worker-pool",
+  "name": "worker-dynamic",
   "version": "1.0.0",
   "description": "running js function in worker dynamic",
   "main": "dist/index.js",
